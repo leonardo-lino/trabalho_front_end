@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoneyScale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="pt1_header">
+            
+                <img src="trabalho front.svg" alt="">
+                <h1>MoneyScale</h1>
+        </div>
+        <div>
+            <img src="icons8-menu-arredondado-50.png" alt="" id="burguer" onclick="clickMenu()">
+            <menu id="itens">
+                <ul>
+                    <li><a href="">Opção 1</a></li>
+                    <li><a href="">Opção 2</a></li>
+                    <li><a href="">Opção 3</a></li>
+                    <li><a href="">Opção 4</a></li>
+                </ul>
+            </menu>
+        </div>
+    </header>
+    <main>
+        <p>Simule seus inverstimentos de renda fixa no algoritmo da MoneyScale e escale seus rendimentos</p>
+
+        <select name="op1" id="op1" class="caixa">
+            <option value="tipo_de_invest" >Escolha o tipo do seu investimento</option>
+            <option value="tipo_de_invest_1">Opção 1</option>
+            <option value="tipo_de_invest_2">Opção 2</option>
+            <option value="tipo_de_invest_3">Opção 3</option>
+        </select><br>
+        <input type="number" placeholder="Aporte Inicial" class="caixa"><br>
+        <input type="number" placeholder="Aporte Mensal" class="caixa"><br>
+        <input type="number" placeholder="Taxa de Juros" class="caixa"><br>
+        <input type="number" placeholder="Duração do investimento" class="caixa"><br>
+        
+        <button id="botao_simular">Simular</button>
+    </main>
+    <footer>
+        <img src="trabalho front.svg" alt="" >
+        <p id="p_footer">Copyright copy&</p>
+    </footer>
+    <script>
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

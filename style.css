@@ -1,0 +1,82 @@
+header{
+    display: inline-block;
+    width: 100%;
+}
+main{
+    text-align: center;
+    
+}
+
+
+#pt1_header{
+    
+    background: #0EA45D;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    
+    
+}
+
+#menu_header{
+    
+    background: #E97B3E;
+    width: 20%;
+
+}
+h1, #menu_header{
+    display: inline-block;
+}
+#burguer{
+    background-color: #E97B3E;
+    color: white; /*trocar o icone por um q mude a cor*/
+    display: block;
+}
+menu{
+    display: none;
+}
+
+.caixa{
+    background: #D9D9D9;
+    border-radius: 8px;
+    border-width: 0px;
+    padding: 5px;
+    margin: 5px;
+    width: 285px;
+    height: 38px;
+    left: 17px;
+    top: 278px;
+   
+}
+
+#botao_simular{
+    width: 162px;
+    height: 49px;
+    left: 79px;
+    top: 513px;
+    background: #00E378;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+footer{
+    
+    background: #0EA45D;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+#p_footer{
+    font-size:20px;
+    color: white;
+
+    
+}
+img, p{
+    display: inline-block;
+}
